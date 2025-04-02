@@ -1,8 +1,3 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-// import './App.css'
-
 import { useState } from "react"
 
 function Square({value, onSquareClick}) {
@@ -62,9 +57,6 @@ export default function Game() {
   const xIsNext = currentMove % 2 === 0;
 
   function jumpTo(nextmove) {
-    if (nextmove === 0) {
-      
-    }
     setCurrentMove(nextmove);
   }
 
